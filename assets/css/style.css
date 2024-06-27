@@ -1,0 +1,83 @@
+
+body *{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 700;
+    padding: 6rem 0rem 2rem;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+label{
+    font-weight: 700;
+}
+
+footer{
+    background-color: #0F0F0F;
+    font-size: 20px;
+}
+
+
+.nav-link{
+    font-size: 20px;
+}
+
+.card{
+    border: none!important;
+}
+
+.card img{
+    width: auto;
+    max-height: 250px;
+}
+
+#hero{
+    background: url(../img/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20%;
+    text-align: right;
+    padding-bottom: 11em;
+}
+
+#about{
+    color: #0F0F0F;
+}
+
+#about i{
+    font-size: 30px;
+}
+
+#works{
+    background-color: #17A2B8;
+    color: #0F0F0F;
+}
+
+#form button{
+    background-color: #17A2B8;
+}
+
+@media screen and (min-width: 768px) {
+    #hero .container{
+        width: 50%;
+        margin-left: 43vw;
+    }
+}
